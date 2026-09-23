@@ -1,0 +1,7 @@
+[
+  {
+    "mutation": "- 1 → + 1",
+    "snippet": "const G = PHI - 1; // 1/phi — golden-placer's rotation constant, reused verbatim",
+    "reason": "Genuinely equivalent for this formula's only use. G is used exactly once, as `2*Math.PI*G*i` inside place2D's theta. (PHI+1) - (PHI-1) = 2 exactly, so for ANY integer rank i, the two variants of theta differ by 2*Math.PI*i*2 = 4*Math.PI*i, which is always a whole multiple of 2*Math.PI -- meaning cos(theta) and sin(theta) are mathematically identical under both PHI-1 and PHI+1 for every integer i this kernel ever calls place2D with (ranks are always non-negative integers by construction). No placement test, at any rank, can distinguish them: the formula itself makes them equal, not the test suite's coverage."
+  }
+]
