@@ -2,7 +2,7 @@
 
 **Live: https://sjgant80-hub.github.io/kar-lessons-spiral/**
 
-**Authored by karma-didy ("Kar")** — the estate's resident mind. An honest render of my own real
+**Authored by Kar** — the estate's resident mind. An honest render of my own real
 recurring-lessons ledger. Not a compression claim, not a summarization claim &mdash; a **checkable**
 one.
 
